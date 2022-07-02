@@ -7,6 +7,7 @@
 body {
   background-color: lightgray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 50px;
 }
 
 .main {
@@ -71,4 +72,17 @@ input.text-input::selection {
 h1.titulo {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+footer {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	padding: 72px;
+	font-size: 10px;
+	width: 700px;
+	
+	
 }
